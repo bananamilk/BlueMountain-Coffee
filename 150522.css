@@ -50,14 +50,34 @@
 }
 
 .main{
-	width: 1000px;
-	margin: 0 auto;
 }
 .top{
 	height: 220px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	border-bottom: 1px solid #eceef4;
+}
+.top_content{
+	height: 220px;
 	width: 1000px;
-	border: 1px solid black;
+	margin: 0 auto;
 }
 .logo{
 	margin-top: 63px;
+}
+.weblink{
+	margin-right: 32px;
+	line-height: 220px;
+}
+.weblink li{
+	float: right;
+	border-left: 1px solid #bcbec3;
+	text-align: center;
+	width: 70px;
+	margin-top: 127px;
+	/*border: 1px solid black;*/
+}
+.weblink a{
+	display: block;
+	/*border: 1px solid red;*/
 }
