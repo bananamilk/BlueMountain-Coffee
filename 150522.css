@@ -57,10 +57,12 @@
 	/*border: 1px solid black;*/
 	border-bottom: 1px solid #eceef4;
 }
-.top_content{
-	height: 220px;
+.top_content, .nav{
 	width: 1000px;
 	margin: 0 auto;
+}
+.top_content{
+	height: 220px;
 }
 .logo{
 	margin-top: 63px;
@@ -80,4 +82,27 @@
 .weblink a{
 	display: block;
 	/*border: 1px solid red;*/
+}
+
+.nav,.nav-con{
+	height: 87px;
+}
+.nav-con li{
+	float: left;
+	list-style-type: none;
+	font-size: 13px;
+	font-weight: bold;
+	border-left: 1px solid #eceef4;
+}
+.nav-con a{
+	text-decoration: none;
+	color: #6d6e71;
+	font-family: "黑体";
+	height: 20px;
+	padding: 30px 20px;
+	display: block;
+}
+.nav-con a:hover{
+	color: #1faae2;
+	background: url(images/nav_act.png) no-repeat bottom center;
 }
