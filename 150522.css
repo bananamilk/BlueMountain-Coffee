@@ -50,6 +50,7 @@
 }
 
 .main{
+	margin: 0 auto;
 }
 .top{
 	height: 220px;
@@ -105,4 +106,9 @@
 .nav-con a:hover{
 	color: #1faae2;
 	background: url(images/nav_act.png) no-repeat bottom center;
+}
+
+.home{
+	height: 885px;
+	background: url(images/bg.jpg) no-repeat top center;
 }
