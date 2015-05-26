@@ -111,8 +111,47 @@
 .home{
 	height: 885px;
 	background: url(images/bg.jpg) no-repeat top center;
+	position: relative;
 }
 .con-text{
 	padding-top: 266px;
 	margin-left: 618px;
+}
+
+.pic{
+	position: absolute;
+	bottom: 125px;
+	right: 320px;
+}
+.pic_i1,.pic_i2{
+	height: 240px;
+	width: 323px;
+}
+.pic_i1{
+	background: url(images/pic1.jpg);
+}
+.pic_i2{
+	background: url(images/pic2.jpg);
+}
+.pic_bu{
+	/*background-color: rgba(138,202,81,0.9);*/
+	width: 323px;
+	height: 65px;
+	bottom: 0px;
+	position: absolute;
+	display: none;
+}
+.pic :hover{
+	display: block;
+}
+.pic_bu1{
+	background: url(images/pic1.png);
+}
+.pic_bu2{
+	background: url(images/pic2.png);
+}
+.pic_ar{
+	width: 111px;
+	height: 240px;
+	background: url(images/pic_bu.jpg);
 }
