@@ -141,7 +141,7 @@
 	position: absolute;
 	display: none;
 }
-.pic :hover{
+.pic_bu:hover{
 	display: block;
 }
 .pic_bu1{
@@ -154,4 +154,25 @@
 	width: 111px;
 	height: 240px;
 	background: url(images/pic_bu.jpg);
+}
+
+.isama{
+	margin: 0 auto;
+	width: 1300px;
+}
+.is1,.is2{
+	width: 567px;
+	height: 390px;
+	color: #6d6e71;
+	text-align: justify;
+}
+.is1 img,.is2 img{
+	float: left;
+	padding:30px 30px 247px 0px;
+}
+.is1 h1,.is2 h1{
+	padding: 50px 0px 10px 0px;
+}
+.is1{
+	margin-right: 100px;
 }
