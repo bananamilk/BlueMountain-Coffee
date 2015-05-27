@@ -159,6 +159,7 @@
 .isama{
 	margin: 0 auto;
 	width: 1300px;
+	height: 360px;
 }
 .is1,.is2{
 	width: 567px;
@@ -175,4 +176,12 @@
 }
 .is1{
 	margin-right: 100px;
+}
+
+
+.service{
+	height: 950px;
+	width: 1000px;
+	margin: 0 auto;
+	background: url(images/ser_bg.png) no-repeat top;
 }
