@@ -185,7 +185,7 @@
 	margin: 0 auto;
 	background: url(images/ser_bg.png) no-repeat top;
 }
-.service img{
+.ser_title img,.ser_item img{
 	float: left;
 	padding-right: 35px;
 	padding-bottom: 70px;
@@ -205,17 +205,23 @@
 }
 .ser_title h1{
 	font-size: 45px;
+	margin-bottom: 10px;
 }
 .ser_content{
 	margin: 0 auto;
 	width: 1400px;
 }
+.ser_left{
+	margin-left: 140px;
+}
+.ser_right{
+}
+.ser_pic{
+	margin:80px 40px 0px;
+}
 .ser_item{
 	height: 90px;
-	float: left;
 	margin-top: 100px;
-	margin-right: 160px;
-	margin-left: 30px;
 	width: 500px;
 }
 .ser_item h1{
