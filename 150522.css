@@ -178,12 +178,13 @@
 	margin-right: 100px;
 }
 
-
+/*service*/
 .service{
 	height: 950px;
 	width: 1400px;
 	margin: 0 auto;
 	background: url(images/ser_bg.png) no-repeat top;
+	color: #6d6e71;
 }
 .ser_title img,.ser_item img{
 	float: left;
@@ -213,11 +214,14 @@
 }
 .ser_left{
 	margin-left: 140px;
+	width: 500px;
 }
 .ser_right{
+	float: left;
 }
 .ser_pic{
-	margin:80px 40px 0px;
+	margin:80px 60px 0px;
+	float: left;
 }
 .ser_item{
 	height: 90px;
