@@ -51,6 +51,7 @@
 
 .main{
 	margin: 0 auto;
+	position: relative;
 }
 .top{
 	height: 220px;
@@ -245,7 +246,7 @@
 	margin-top: 50px;
 }
 .pro_tab{
-	margin: 80px auto 40px;
+	margin: 60px auto 40px;
 	width: 900px;
 	height: 80px;
 }
@@ -299,4 +300,11 @@
 .pro_link img{
 	float: left;
 	text-align: center;
+}
+
+/*up*/
+.up{
+	position: absolute;
+	right: 220px;
+	bottom:80px;
 }
