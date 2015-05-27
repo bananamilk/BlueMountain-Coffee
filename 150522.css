@@ -181,7 +181,29 @@
 
 .service{
 	height: 950px;
-	width: 1000px;
+	width: 1400px;
 	margin: 0 auto;
 	background: url(images/ser_bg.png) no-repeat top;
+}
+.service img{
+	float: left;
+	padding-right: 35px;
+	padding-bottom: 60px;
+	text-align: center;
+	vertical-align: middle;
+}
+.ser_title,.ser_item{
+	width: 580px;
+}
+.ser_title{
+	height: 160px;
+}
+.ser_content{
+	margin-top: 80px;
+}
+.ser_item{
+	height: 90px;
+	float: left;
+	margin-top: 50px;
+	margin-right: 30px;
 }
