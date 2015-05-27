@@ -180,13 +180,13 @@
 
 /*service*/
 .service{
-	height: 950px;
+	height: 900px;
 	width: 1400px;
 	margin: 0 auto;
 	background: url(images/ser_bg.png) no-repeat top;
 	color: #6d6e71;
 }
-.ser_title img,.ser_item img{
+.ser_title img,.ser_item img,.pro_title img{
 	float: left;
 	padding-right: 35px;
 	padding-bottom: 70px;
@@ -194,17 +194,15 @@
 	vertical-align: middle;
 }
 
-.ser_title{
+.ser_title,.pro_title{
 	width: 580px;
-}
-.ser_title{
 	height: 160px;
 	margin: 0 auto;
 }
-.ser_title img{
+.ser_title img,.pro_title img{
 	padding-bottom: 10px;
 }
-.ser_title h1{
+.ser_title h1,.pro_title h1{
 	font-size: 45px;
 	margin-bottom: 10px;
 }
@@ -231,4 +229,16 @@
 .ser_item h1{
 	font-size: 25px;
 	margin-bottom: 25px;
+}
+
+.project{
+	color: #6d6e71;
+	background: url(images/pro_bg.jpg);
+	height: 1080px;
+}
+.pro_title{
+	padding-top: 70px;
+}
+.pro_title h1{
+	margin-top: 50px;
 }
