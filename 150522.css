@@ -188,22 +188,37 @@
 .service img{
 	float: left;
 	padding-right: 35px;
-	padding-bottom: 60px;
+	padding-bottom: 70px;
 	text-align: center;
 	vertical-align: middle;
 }
-.ser_title,.ser_item{
+
+.ser_title{
 	width: 580px;
 }
 .ser_title{
 	height: 160px;
+	margin: 0 auto;
+}
+.ser_title img{
+	padding-bottom: 10px;
+}
+.ser_title h1{
+	font-size: 45px;
 }
 .ser_content{
-	margin-top: 80px;
+	margin: 0 auto;
+	width: 1400px;
 }
 .ser_item{
 	height: 90px;
 	float: left;
-	margin-top: 50px;
-	margin-right: 30px;
+	margin-top: 100px;
+	margin-right: 160px;
+	margin-left: 30px;
+	width: 500px;
+}
+.ser_item h1{
+	font-size: 25px;
+	margin-bottom: 25px;
 }
