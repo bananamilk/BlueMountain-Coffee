@@ -373,3 +373,16 @@
 	width: 275px;
 	height: 26px;
 }
+
+/*map*/
+.map{
+	width: 100%;
+	overflow: hidden;
+	height: 498px;
+}
+
+.footer{
+	background-color: #2b2c2d;
+	height: 264px;
+	width: 100%;
+}
