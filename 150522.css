@@ -379,10 +379,53 @@
 	width: 100%;
 	overflow: hidden;
 	height: 498px;
+	position: relative;
+	background: url(images/map.jpg);
 }
-
+#local{
+	position: absolute;
+	right: 500px;
+	top: 100px;
+}
+.loc-con{
+	margin: 10px auto;
+	width: 300px;
+	margin-top: 400px;
+}
 .footer{
 	background-color: #2b2c2d;
 	height: 264px;
 	width: 100%;
+}
+.footer_top{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.foo-con{
+	float: left;
+}
+.foo-con li{
+	float: left;
+	padding: 20px;
+	border: 2px solid #3c3e3f;
+	margin-right: -2px;
+	list-style-type: none;
+	border-style: none solid;
+}
+
+.footer_con{
+	display: block;
+	color: #6d6e71;
+	margin: 0 auto;
+	margin-top: 150px;
+	width: 1200px;
+}
+.footer_con span{
+	margin-right: 400px;
+}
+.footer_con a{
+	color: #6d6e71;
+	text-decoration: none;
+	display: inline-block;
 }
