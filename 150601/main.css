@@ -32,6 +32,7 @@
 	float: left;
 	list-style-type: none;
 	font-family: 'OswaldLight',Arial,Helvetica,sans-serif;
+	position: relative;
 }
 .menu li a{
 	text-decoration: none;
@@ -44,9 +45,25 @@
 	color: #414146;
 	background-color: #ffea00;
 }
-.menu li ul li{
+.menu li ul{
+	position: absolute;
 	display: none;
-	/*display: block;*/
+}
+.menu ul li:hover ul{ /*使用css实现导航消失*/
+	display: block;
+}
+.menu li ul li{
+	float: none;
+	background-color: #535961;
+	padding: 0px;
+}
+.menu li ul li a{
+	width: 150px;
+	display: inline-block;
+	padding: 0 15px;
+	font-size: 12px;
+	height: 45px;
+	line-height: 45px;
 }
 .search{
 	float: right;
