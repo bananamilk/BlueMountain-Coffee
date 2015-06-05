@@ -133,7 +133,7 @@
 .ad span{
 	font-weight: bold;
 }
-.ad h2,.ad p{
+.text{
 	color: #fff;
 	font-family: 'OswaldLight',Arial,Helvetica,sans-serif;
 	font-weight: normal;
@@ -142,7 +142,7 @@
 }
 .ad h2{
 	font-size: 20px;
-	padding: 20px 20px 10px;
+	padding: 20px 0px 10px;
 }
 .ad p{
 	color: #b8bcc1;
