@@ -240,4 +240,142 @@
 .ad_link img{
 	margin: 40px 0px;
 }
+
+.contact{
+	background-color: #414146;
+	height: 367px;
+}
+.tact_logo{
+	background-color:#565A60;
+}
+.tact_logo img{
+	width: 100px;
+}
+.tact_logo a{
+	padding: 55px 50px;
+	width: 100px;
+	height: 20px;
+	display: block;
+}
+.tact_text{
+	width: 800px;
+	height: 130px;
+	background-color: #fff;
+	line-height: 130px;
+	color: #414146;
+}
+.tact_text h1{
+	font-weight: normal;
+	padding-left: 30px;
+}
+.tact_text span{
+	font-weight: bold;
+}
+
+.tact{
+	width: 300px;
+	margin: 0px 15px;
+	color: #fff;
+}
+.tact_left{
+	margin-left: 0px;
+}
+.tact_left_text{
+	width: 300px;
+	height: 125px;
+}
+.tact_left_text h1{
+	font-size: 24px;
+	font-weight: normal;
+	margin: 40px 0px 8px;
+}
+.tact_left_text h1 span{
+	font-weight: bold;
+}
+.tact_left_text p{
+	font-size: 12px;
+	margin-top: 8px;
+	color: #d7d7d7;
+}
+.tact_left li{
+	float: left;
+	list-style-type: none;
+	background-color: #ffea00;
+}
+.tact_left li a{
+	width: 56px;
+	height: 56px;
+	display: block;
+}
+.tact_left li a img{
+	width: 30px;
+	margin: 13px;
+}
+
+.tact_mid_title{
+	background-color: #fff;
+	color: #414146;
+	width: 150px;
+	height: 77px;
+}
+.tact_mid_title h1{
+	width: 130px;
+	height: 30px;
+	padding: 25px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 30px;
+}
+.tact_mid_title span{
+	font-weight: bold;
+}
+.tact_mid_ul li{
+	list-style-type: none;
+	margin-left: 56px;
+	position: relative;
+	padding: 6px 15px 10px;
+	display: block;
+	font-size: 10px;
+	line-height: 18px;
+}
+/*新姿势，以后补充after和before*/
+.tact_mid_ul li:before,.tact_mid_ul li:after{
+	position: absolute;
+	content: '';
+}
+.tact_mid_ul li:after{
+	top: 0px;
+	left: -56px;
+	width: 56px;
+	height: 56px;
+	background-color: #565a60;
+}
+.tact_doc:after{
+	background:url(images/icon-standart-post.png) no-repeat center center;
+}
+.tact_pic:after{
+	background:url(images/icon-image-post.png) no-repeat center center;
+}
+.tact_vio:after{
+	background:url(images/icon-video-post.png) no-repeat center center;
+}
+.tact_loc:after{
+	background:url(images/icon_footer_loc.png) no-repeat center center;
+}
+.tact_tel:after{
+	background:url(images/icon_footer_phone.png) no-repeat center center;
+}
+.tact_mail:after{
+	background:url(images/icon_footer_mail.png) no-repeat center center;
+}
+
+.tact_mid_ul a{
+	color: #fff;
+	text-decoration: none;
+}
+.tact_mid_ul a:hover{
+	color: #ffea00;
+}
+.tact_mid_ul i{
+	color: #d1d1d1;
 }
