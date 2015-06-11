@@ -379,3 +379,36 @@
 .tact_mid_ul i{
 	color: #d1d1d1;
 }
+
+.footer{
+	height: 65px;
+	background-color: #27282a;
+	color: #a1a1a1;
+	line-height: 65px;
+}
+.footer ul{
+	float: left;
+}
+.footer li{
+	float: left;
+	list-style-type: none;
+	padding-right: 20px;
+}
+.footer a{
+	text-decoration: none;
+	color: #a1a1a1;
+}
+.footer a:hover{
+	color: #ffea00;
+}
+.foo_text{
+	float: right;
+	
+	font-size: 12px;
+}
+.foo_text span{
+	color: #ffea00;
+}
+.foo_text a{
+	color: #cecece;
+}
